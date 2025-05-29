@@ -17,7 +17,7 @@ public class Main {
             ContainerShip ship = new ContainerShip("EverGreen", 20, 10, 40000);
             ship.loadContainer(milk);
             ship.loadContainer(helium);
-            ship.loadContainer(bananas);
+            ship.loadContainer(bananas);//
 
             ship.printInfo();
 
